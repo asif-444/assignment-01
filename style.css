@@ -1,30 +1,79 @@
-.header-title{
+.header-title {
     color: #272727;
-font-family: Lato;
-font-size: 80px;
-font-style: normal;
-font-weight: 800;
-line-height: normal;
-}
-.header-p{
-    color: rgba(39, 39, 39, 0.60);
-font-family: Lato;
-font-size: 18px;
-font-style: normal;
-font-weight: 400;
-line-height: 30px;
-}
-.header-button{
-    border-radius: 8px;
-background: #E55473;
-}
-.tulip{
-    height: 500px;
-    width: 400px;
+    font-family: Lato;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
 
 }
-header{
-    height: 800px;
+
+.header-p {
+    color: rgba(39, 39, 39, 0.60);
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.header-button {
+    border-radius: 8px;
+    background: #E55473;
+}
+
+.tulip {
+    height: 200px;
+    width: 100px;
+    margin-top: -450px;
+    margin-bottom: 200px;
+
+}
+
+header {
+    height: 100vh;
     width: 100%;
     background: rgba(229, 84, 115, 0.10);
+    display: flex;
+    align-items: center;
+    gap: 150px;
+
+}
+
+.main-section {
+    text-align: center;
+}
+
+.pink-flower-1 {
+    height: 80%;
+    width: 80%;
+    padding: 70px 30px 0px 30px;
+    border: 0px;
+    border-radius: 300px 300px 0px 0px;
+    background-color: rgba(167, 33, 98, 0.15);
+}
+.pink-flower-2{
+    height: 80%;
+    width: 80%;
+    padding: 70px 30px 0px 30px;
+    border: 0px;
+    border-radius: 300px 300px 0px 0px;
+    background-color: rgba(5, 151, 160, 0.15);
+}
+.pink-flower-3{
+    height: 80%;
+    width: 80%;
+    padding: 70px 30px 0px 30px;
+    border: 0px;
+    border-radius: 300px 300px 0px 0px;
+    background-color:  rgba(71, 125, 17, 0.15);
+}
+.all-flower{
+    display: flex;
+    justify-content: space-around;
+}
+.description{
+    font-size: 24px;
+    text-align: center;
+    text-decoration: underline;
 }
