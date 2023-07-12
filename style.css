@@ -10,8 +10,7 @@
 
 .header-p {
     color: rgba(39, 39, 39, 0.60);
-    font-family: Lato;
-    font-size: 18px;
+    font-family: sans-serif font-size: 18px;
     font-style: normal;
     font-weight: 400;
     line-height: 30px;
@@ -52,7 +51,8 @@ header {
     border-radius: 300px 300px 0px 0px;
     background-color: rgba(167, 33, 98, 0.15);
 }
-.pink-flower-2{
+
+.pink-flower-2 {
     height: 80%;
     width: 80%;
     padding: 70px 30px 0px 30px;
@@ -60,20 +60,76 @@ header {
     border-radius: 300px 300px 0px 0px;
     background-color: rgba(5, 151, 160, 0.15);
 }
-.pink-flower-3{
+
+.pink-flower-3 {
     height: 80%;
     width: 80%;
     padding: 70px 30px 0px 30px;
     border: 0px;
     border-radius: 300px 300px 0px 0px;
-    background-color:  rgba(71, 125, 17, 0.15);
+    background-color: rgba(71, 125, 17, 0.15);
 }
-.all-flower{
+
+.all-flower {
     display: flex;
     justify-content: space-around;
 }
-.description{
+
+.description {
     font-size: 24px;
     text-align: center;
     text-decoration: underline;
+}
+
+.off {
+    color: #E55473;
+}
+
+.middle {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.secondary-div {
+    display: flex;
+    margin-top: 200px;
+    margin-left: 100px;
+    justify-content: space-evenly;
+    background-color: #E554730D;
+}
+
+.red-tulip {
+    align-items: center;
+    margin-top: -100px;
+}
+
+.sign-up {
+    align-items: center;
+    border-radius: 8px;
+    background: #E55473;
+    padding: 20px 43px;
+    border-color: purple;
+    color: #FFF;
+    font-family: Lato;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.instagram{
+    text-align: center;
+}
+.insta-para{
+    text-align: center;
+}
+.third-section{
+    margin: 50px;
+    padding: 50px;
+}
+.more-flower{
+    display: flex;
+    gap: 24px;
+    height: 60%;
+    width: 60%;
+    justify-content: space-b;
 }
