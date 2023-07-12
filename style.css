@@ -88,19 +88,22 @@ header {
 .middle {
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+
 }
 
 .secondary-div {
     display: flex;
     margin-top: 200px;
     margin-left: 100px;
-    justify-content: space-evenly;
+    height: 500px;
+    align-items: center;
+    justify-content: space-around;
     background-color: #E554730D;
 }
 
 .red-tulip {
     align-items: center;
-    margin-top: -100px;
+
 }
 
 .sign-up {
@@ -116,20 +119,57 @@ header {
     font-weight: 700;
     line-height: normal;
 }
-.instagram{
+
+.instagram {
     text-align: center;
 }
-.insta-para{
+
+.insta-para {
     text-align: center;
 }
-.third-section{
+
+.third-section {
     margin: 50px;
     padding: 50px;
 }
-.more-flower{
+
+.more-flower {
     display: flex;
+    margin-right: 40px;
+
     gap: 24px;
     height: 60%;
     width: 60%;
-    justify-content: space-b;
+    justify-content: space-between;
+}
+
+.background {
+    background-image: url('./Rectangle\ 9.png');
+    background-repeat: no-repeat;
+    height: 300px;
+    width: 1500px;
+    margin-left: 250px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.form {
+    border-radius: 8px;
+    background: #FFF;
+}
+
+.button {
+    border-radius: 8px;
+    background: #E55473;
+}
+.shop{
+    color: #E55473;
+}
+.last{
+    text-align: center;
+    background-color: #111010;
+    color: white;
+
 }
